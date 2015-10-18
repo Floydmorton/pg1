@@ -33,10 +33,14 @@
         <div class="app">
             <h1>PG 1</h1>
 
-            <div>Hello Dave
+            <div id="main">Hello Dave
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
+        <script>
+            document.getElementById("main").innerHTML = device.version;
+
+        </script>
 
 
     </body>
